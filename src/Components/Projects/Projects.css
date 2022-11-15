@@ -1,0 +1,22 @@
+.proj-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.img1 {
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.img2 {
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.img3 {
+  max-height: 40%;
+  max-width: 40%;
+}
