@@ -3,6 +3,8 @@ import headshot from './headshot.jpeg';
 import './App.css';
 import Menu from './Components/Menu/Menu';
 import Projects from './Components/Projects/Projects';
+import Timeline from './Components/Timeline/Timeline';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
@@ -11,14 +13,17 @@ function App() {
       <header className="App-header">
         <img src={headshot} className="headshot" alt="headshot" />
         <p>
-          Hi! Im Gabbie and am a Product Manager at Epson. I value user feedback
-          and bring a customer-focused approach to problem solving. Im obsessed
-          with optimizing products and ops processes. I like to surround myself
-          with people who are go-getters and curious about the problems they are
-          solving.
+          <h2>Gabbie De Los Angeles</h2>
+          <p className="shortBio">
+            Product Manager by day. Web Developer by night. Ops hack enthusiast
+            and exceptional optimizer.
+            <p>Ex-Uber/Bird</p>
+          </p>
         </p>
       </header>
       <Projects />
+      <Timeline />
+      <Blog />
     </div>
   );
 }

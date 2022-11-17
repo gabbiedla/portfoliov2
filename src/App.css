@@ -31,9 +31,14 @@
   padding-left: 10%;
 }
 
+/* h2 {
+  color: rgb(0, 38, 230);
+} */
+
 p {
   padding-left: 10%;
   padding-right: 10%;
+  /* padding-bottom: 1%; */
 }
 
 /* .App-link {
@@ -48,3 +53,10 @@ p {
     transform: rotate(360deg);
   }
 } */
+.shortBio {
+  background-color: rgb(185, 185, 185);
+  border-radius: 6px 120px / 150px;
+  padding-top: 6%;
+  padding-bottom: 0.5%;
+  color: black;
+}
