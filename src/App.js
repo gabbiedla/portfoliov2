@@ -5,6 +5,7 @@ import Menu from './Components/Menu/Menu';
 import Projects from './Components/Projects/Projects';
 import Timeline from './Components/Timeline/Timeline';
 import Blog from './Components/Blog/Blog';
+import Recommendations from './Components/Recommendations/Recommendations';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </p>
       </header>
       <Projects />
+      <Recommendations />
       <Timeline />
       <Blog />
     </div>

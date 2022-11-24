@@ -1,0 +1,20 @@
+/* .recsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+} */
+
+.r1,
+.r3 {
+  text-align: left;
+  padding-left: 7%;
+  padding-right: 50%;
+}
+
+.r2 {
+  text-align: right;
+  padding-left: 50%;
+  padding-right: 7%;
+}
