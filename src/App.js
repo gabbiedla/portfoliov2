@@ -11,19 +11,23 @@ function App() {
   return (
     <div className="App">
       <Menu />
-      <header className="App-header">
-        <img src={headshot} className="headshot" alt="headshot" />
-        <p>
-          <h2>Gabbie De Los Angeles</h2>
-          <div className="shortBio">
-            <p className="text">
-              Product Manager by day. Web Developer by night. Ops hack
-              enthusiast and exceptional optimizer.
-            </p>
-            <p className="text">Ex-Uber/Bird</p>
-          </div>
-        </p>
-      </header>
+      <div className="app-header">
+        <div className="top-content">
+          <img src={headshot} className="headshot" alt="headshot" />
+          <h2 className="name">Gabbie De Los Angeles</h2>
+        </div>
+        <div className="bottom-content">
+          <p className="text">
+            Product Manager by day. Web Developer by night. Ops hack enthusiast
+            and exceptional optimizer.
+          </p>
+          <p className="text">Ex-Uber/Bird</p>
+        </div>
+        <div className="social">
+          <p>Logo1</p>
+          <p>Logo2</p>
+        </div>
+      </div>
       <Timeline />
       <Projects />
       <Recommendations />
