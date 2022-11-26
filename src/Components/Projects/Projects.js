@@ -6,7 +6,7 @@ import './Projects.css';
 function Projects() {
   return (
     <div className="proj-section">
-      <h2>0 &#8594; 1</h2>
+      <h2 className="proj-title">0 &#8594; 1</h2>
       <div className="category-container">
         <h3 className="proj-category">Ops</h3>
         <h3 className="proj-category">Product</h3>

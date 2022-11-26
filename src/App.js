@@ -15,16 +15,18 @@ function App() {
         <img src={headshot} className="headshot" alt="headshot" />
         <p>
           <h2>Gabbie De Los Angeles</h2>
-          <p className="shortBio">
-            Product Manager by day. Web Developer by night. Ops hack enthusiast
-            and exceptional optimizer.
-            <p>Ex-Uber/Bird</p>
-          </p>
+          <div className="shortBio">
+            <p className="text">
+              Product Manager by day. Web Developer by night. Ops hack
+              enthusiast and exceptional optimizer.
+            </p>
+            <p className="text">Ex-Uber/Bird</p>
+          </div>
         </p>
       </header>
+      <Timeline />
       <Projects />
       <Recommendations />
-      <Timeline />
       <Blog />
     </div>
   );

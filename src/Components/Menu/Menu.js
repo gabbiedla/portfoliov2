@@ -4,7 +4,7 @@ function Menu() {
   return (
     <div className="navBar">
       <p>Home</p>
-      <p>About</p>
+      <p>Experience</p>
       <p>Projects</p>
       <p>Contact</p>
     </div>

@@ -1,9 +1,13 @@
 .proj-section {
   min-height: 60vh;
+  background-color: rgb(246, 246, 246);
 }
 
-h2 {
+.proj-title {
   padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .sections {
