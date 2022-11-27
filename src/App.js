@@ -5,13 +5,15 @@ import Menu from './Components/Menu/Menu';
 import Projects from './Components/Projects/Projects';
 import Timeline from './Components/Timeline/Timeline';
 import Blog from './Components/Blog/Blog';
-import Recommendations from './Components/Recommendations/Recommendations';
+// import Recommendations from './Components/Recommendations/Recommendations';
+// import Carousel, { CarouselItem } from './Components/Carousel/Carousel';
+import Slider from './Components/Slider/Slider';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
       <div className="app-header">
+        <Menu />
         <div className="top-content">
           <img src={headshot} className="headshot" alt="headshot" />
           <h2 className="name">Gabbie De Los Angeles</h2>
@@ -30,8 +32,14 @@ function App() {
       </div>
       <Timeline />
       <Projects />
-      <Recommendations />
+      <Slider />
+      {/* <Recommendations /> */}
       <Blog />
+      {/* <Carousel>
+        <CarouselItem>Item1</CarouselItem>
+        <CarouselItem>Item2</CarouselItem>
+        <CarouselItem>Item3</CarouselItem>
+      </Carousel> */}
     </div>
   );
 }
