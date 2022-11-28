@@ -1,14 +1,47 @@
 .section-center {
   margin: 0 auto;
-  margin-top: 4rem;
-  width: 80vw;
+  /* margin-top: 4rem; */
+  width: 90vw;
   /* have to have a height */
-  height: 450px;
-  max-width: 800px;
+  height: 45vh;
+  /* max-width: 800px; */
   text-align: center;
   position: relative;
   display: flex;
   overflow: hidden;
+}
+
+.slider-title {
+  padding-top: 3vh;
+}
+
+.ref-text {
+  font-size: large;
+  /* font-style: italic; */
+  padding-top: 6%;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-weight: 500;
+  /* max-width: 700px; */
+  /* text-align: center; */
+  /* width: 60vw; */
+  color: #33b3ff;
+}
+
+.ref-name {
+  font-weight: 300;
+  font-size: medium;
+  padding-top: 3%;
+}
+
+button {
+  opacity: 0.2;
+}
+
+button:hover {
+  color: #33b3ff;
+  opacity: 2;
+  /* font-size: xx-large; */
 }
 
 article {
@@ -34,20 +67,30 @@ article.nextSlide {
   transform: translateX(100%);
 }
 
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
 .prev,
 .next {
   position: absolute;
-  top: 200px;
+  /* top: 100px; */
   transform: translateY(-50%);
   background: var(--clr-grey-5);
   color: var(--clr-white);
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 3rem;
+  /* height: 5vh; */
+  padding-top: 40vh;
   display: grid;
   place-items: center;
   border-color: transparent;
-  font-size: 1rem;
+  font-size: x-large;
   border-radius: var(--radius);
   cursor: pointer;
   transition: var(--transition);
+  font-weight: 700;
 }

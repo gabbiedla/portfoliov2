@@ -8,6 +8,8 @@ import Blog from './Components/Blog/Blog';
 // import Recommendations from './Components/Recommendations/Recommendations';
 // import Carousel, { CarouselItem } from './Components/Carousel/Carousel';
 import Slider from './Components/Slider/Slider';
+import linkedin from './PNG/linkedin.png';
+import medium from './PNG/Medium.png';
 
 function App() {
   return (
@@ -26,8 +28,8 @@ function App() {
           <p className="text">Ex-Uber/Bird</p>
         </div>
         <div className="social">
-          <p>Logo1</p>
-          <p>Logo2</p>
+          <img src={linkedin} width="30" height="30" />
+          <img src={medium} width="25" height="25" />
         </div>
       </div>
       <Timeline />

@@ -19,7 +19,7 @@ function Slider() {
   useEffect(() => {
     let auto = setInterval(() => {
       setIndex(index + 1);
-    }, 3000);
+    }, 10000);
     return () => clearInterval(auto);
   }, [index]);
 
@@ -41,16 +41,17 @@ function Slider() {
 
           return (
             <article className={position} id="ref-items" key={id}>
-              <p className="text">{quote}</p>
+              <h2 className="slider-title">References</h2>
+              <p className="ref-text">{quote}</p>
               <p className="ref-name">{name}</p>
             </article>
           );
         })}
         <button className="prev" onClick={() => setIndex(index - 1)}>
-          prev
+          &#10229;
         </button>
         <button className="next" onClick={() => setIndex(index + 1)}>
-          next
+          &#10230;
         </button>
       </div>
     </div>

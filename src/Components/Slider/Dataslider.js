@@ -2,7 +2,7 @@ const references = [
   {
     id: 1,
     quote:
-      'Gabbie is one of the hardest working individuals that I have ever had the pleasure of working with. She is able to take a project from start to finish by scoping out all potential roadblocks and create a projected plan for resolution. Not only this but she is constantly looking for ways to improve team processes for efficiency sake. She is highly motivated and a true delight so that anyone would be lucky to work with her',
+      'Gabbie is one of the hardest working individuals that I have ever had the pleasure of working with. She is able to take a project from start to finish by scoping out all potential roadblocks and create a projected plan for resolution. Not only this but she is constantly looking for ways to improve team processes for efficiency sake. She is highly motivated and a true delight so that anyone would be lucky to work with her.',
     name: 'Sarah Wynn, Vendor Program Manager at Bird',
   },
   {
