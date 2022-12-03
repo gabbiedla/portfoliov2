@@ -29,7 +29,7 @@ function App() {
         </div>
         <div className="social">
           <img src={linkedin} width="30" height="30" />
-          <img src={medium} width="25" height="25" />
+          <img src={medium} classname="m-logo" width="25" height="27" />
         </div>
       </div>
       <Timeline />

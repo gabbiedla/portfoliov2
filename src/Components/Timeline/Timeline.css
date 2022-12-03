@@ -180,9 +180,11 @@
 /* Place the timelime to the left */
 
 @media screen and (max-width: 768px) {
-  /* .timeline::after {
-    left: 31px;
-  } */
+  .timelineContainer {
+    position: relative;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+  }
 
   /* The actual timeline (the vertical ruler) */
   .timelineContainer::after {
@@ -199,17 +201,21 @@
   /* Container around content */
   .container {
     padding: 10px 40px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
     position: relative;
     /* background-color: blue; */
-    width: 50%;
+    width: 100%;
   }
 
   /* Container around content */
   .sub-container {
     padding: 10px 40px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
     position: relative;
     /* background-color: blue; */
-    width: 50%;
+    width: 93.7%;
   }
 
   /* The circles on the timeline */
@@ -250,8 +256,9 @@
     left: 1%;
   } */
 
+  /* moved sub circle */
   .sub-right {
-    left: 5.5%; /*moved sub circle */
+    left: 5.5%;
   }
 
   /* Add arrows to the left container (pointing right) */
@@ -275,8 +282,8 @@
     border: 1px solid black;
     position: absolute;
     top: 60px;
-    right: 126px;
-    border-width: 1px 20px;
+    right: 322px;
+    border-width: 1px 30px;
   }
 
   /* Add arrows to the right container (pointing left) */
@@ -316,41 +323,42 @@
   }
 
   /* Fix the circle for containers on the right side */
-  .right::after {
+  /* .right::after {
     left: -16px;
-  }
+  } */
 
-  .sub-right::after {
+  /* .sub-right::after {
     left: -16px;
-  }
+  } */
 
   .left::after {
     left: 15px;
   }
   /* The actual content */
   .content {
-    padding: 20px 10px;
+    padding: 20px 0;
     /* background-color: rgba(222, 222, 222); */
     position: relative;
     border-radius: 10px;
     top: 5px;
-    margin-left: 0;
-    text-align: right;
+    margin-left: 3.4em;
+    text-align: left;
   }
 
   .sub-content {
-    padding: 20px 40px;
+    padding: 20px 0;
     /* background-color: rgba(222, 222, 222); */
     position: relative;
     top: -73px; /*moved content */
     border-radius: 10px;
     text-align: left;
-    margin-left: 0;
+    margin-left: 2em;
   }
 
   .date {
     font-size: small;
     color: gray;
+    padding-top: 4px;
   }
   .sub-title {
     color: #33b3ff;
@@ -382,3 +390,5 @@
     left: 0%;
   } */
 }
+
+
