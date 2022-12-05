@@ -1,6 +1,6 @@
-import './Menu.css';
+import './Navbar.css';
 
-function Menu() {
+function Navbar() {
   return (
     <div className="navBar">
       <p className="nav-text">Home</p>
@@ -11,4 +11,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default Navbar;

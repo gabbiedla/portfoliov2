@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import headshot from './headshot.jpeg';
 import './App.css';
-import Menu from './Components/Menu/Menu';
+import Nav from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import Timeline from './Components/Timeline/Timeline';
 import Blog from './Components/Blog/Blog';
@@ -14,8 +14,8 @@ import medium from './PNG/Medium.png';
 function App() {
   return (
     <div className="App">
+      <Nav />
       <div className="app-header">
-        <Menu />
         <div className="top-content">
           <img src={headshot} className="headshot" alt="headshot" />
           <h2 className="name">Gabbie De Los Angeles</h2>
@@ -25,7 +25,7 @@ function App() {
             Product Manager by day. Web Developer by night. Ops hack enthusiast
             and exceptional optimizer.
           </p>
-          <p className="text">Ex-Uber/Bird</p>
+          <p className="text second-line">Ex-Uber/Bird</p>
         </div>
         <div className="social">
           <img src={linkedin} width="30" height="30" />
