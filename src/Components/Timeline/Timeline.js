@@ -7,7 +7,7 @@ function Timeline() {
       <div className="timelineContainer">
         <div className="container left">
           <div className="content">
-            <p>
+            <p className="Joined">
               Joined <strong>Epson</strong> as <strong>Product Manager</strong>
             </p>
             <p className="date">Jan 2021</p>
