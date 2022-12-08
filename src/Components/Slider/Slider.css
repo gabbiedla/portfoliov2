@@ -1,12 +1,11 @@
-/* MOBILE FIRST */
 @media screen and (max-width: 768px) {
-  .section-center {
+  .section {
     margin: 0 auto;
-    /* margin-top: 4rem; */
-    width: 90vw;
-    /* have to have a height */
-    /* min-height: 55vh; */
-    /* max-width: 800px; */
+  }
+
+  .section-center {
+    width: 100vw;
+
     height: 50vh;
     text-align: center;
     position: relative;
@@ -16,48 +15,42 @@
     overflow: hidden;
   }
 
-  .slider-title {
-    padding-top: 3vh;
-  }
-
-  .ref-text {
-    font-size: 1rem;
-    /* font-style: italic; */
-    padding-top: 2vh;
-    padding-left: 4em;
-    padding-right: 4em;
-    font-weight: 500;
-    /* max-width: 700px; */
-    /* text-align: center; */
-    /* width: 60vw; */
-    color: #33b3ff;
-  }
-
-  .ref-name {
-    /* font-weight: 300; */
-    font-size: 1rem;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-  }
-
-  button {
-    opacity: 0.2;
-  }
-
-  button:hover {
-    color: #33b3ff;
-    opacity: 2;
-    /* font-size: xx-large; */
-  }
-
   article {
     position: absolute;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
     top: 0;
-    /* left: 0; */
+
     width: 100vw;
     height: 100vh;
-    /* opacity: 0; */
+
     transition: var(--transition);
+  }
+
+  .prev,
+  .next {
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    border-color: transparent;
+    font-size: x-large;
+    color: var(--clr-white);
+    background: var(--clr-grey-5);
+    cursor: pointer;
+    font-weight: 700;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
   }
 
   article.activeSlide {
@@ -73,27 +66,34 @@
     transform: translateX(100%);
   }
 
-  .prev {
-    left: 0;
+  .slider-title {
+    padding-top: 3vh;
   }
 
-  .next {
-    right: 0;
+  .ref-text {
+    font-size: 1rem;
+
+    padding-top: 4vh;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    font-weight: 500;
+
+    color: #33b3ff;
   }
 
-  .prev,
-  .next {
-    display: flex;
-    justify-content: center;
-    /* flex-direction: row; */
-    position: absolute;
-    border-color: transparent;
-    font-size: x-large;
-    color: var(--clr-white);
-    background: var(--clr-grey-5);
-    cursor: pointer;
-    font-weight: 700;
-    /* border-radius: var(--radius); */
+  .ref-name {
+    font-size: 1rem;
+    padding-top: 2vh;
+    margin-bottom: 4%;
+  }
+
+  button {
+    opacity: 0.2;
+  }
+
+  button:hover {
+    color: #33b3ff;
+    opacity: 2;
   }
 }
 
