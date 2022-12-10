@@ -24,8 +24,9 @@ function Slider() {
   }, [index]);
 
   return (
-    <div className="section">
+    <div className="section-slider">
       <div className="section-center">
+        <h2 className="slider-title">References</h2>
         {references.map((reference, referenceIndex) => {
           const { id, quote, name } = reference;
           let position = 'nextSlide';
@@ -41,16 +42,15 @@ function Slider() {
 
           return (
             <article className={position} id="ref-items" key={id}>
-              <h2 className="slider-title">References</h2>
               <p className="ref-text">{quote}</p>
               <p className="ref-name">{name}</p>
             </article>
           );
         })}
-        <button className="prev" onClick={() => setIndex(index - 1)}>
+        <button className="prev arrow" onClick={() => setIndex(index - 1)}>
           &#10229;
         </button>
-        <button className="next" onClick={() => setIndex(index + 1)}>
+        <button className="next arrow" onClick={() => setIndex(index + 1)}>
           &#10230;
         </button>
       </div>

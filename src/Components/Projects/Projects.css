@@ -1,5 +1,6 @@
 .proj-section {
-  min-height: 60vh;
+  /* min-height: 60vh; */
+  height: auto;
   background-color: rgb(246, 246, 246);
 }
 
@@ -47,6 +48,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  padding-bottom: 5vh;
 }
 
 .blocks {
