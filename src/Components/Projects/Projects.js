@@ -7,10 +7,10 @@ function Projects() {
   return (
     <div className="proj-section">
       <h2 className="proj-title">0 &#8594; 1</h2>
-      <div className="category-container">
+      {/* <div className="category-container">
         <h3 className="proj-category">Ops</h3>
         <h3 className="proj-category">Product</h3>
-      </div>
+      </div> */}
       <div className="proj-container">
         <div className="blocks box">
           <h4 className="proj-name">BPO Launch</h4>
