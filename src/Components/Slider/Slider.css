@@ -10,7 +10,7 @@
     position: relative;
     /* display: flex; */
     overflow: hidden;
-    min-height: 430px;
+    min-height: 440px;
     /* bottom: 0;
     top: 0; */
 
@@ -27,14 +27,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* vertical-align: middle; */
+    /* text-align: center; */
     flex-direction: column;
-    min-height: 200px;
+    margin-top: 1.5em;
+    /* padding-bottom: -50%; */
+    /* min-height: 200px; */
     /* top: 0; */
     /* left: 0; */
     /* right: 0; */
 
     top: 0;
     bottom: 0;
+    /* margin-bottom: -100px; */
     /* margin-top: -5px; */
     /* left: 0; */
     /* width: 100%; */
@@ -46,6 +51,7 @@
   .slider-title {
     /* text-align: center; */
     padding-top: 10px;
+    /* padding-bottom: 50px; */
     /* position: fixed;
     top: 0; */
 

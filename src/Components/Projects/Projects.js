@@ -13,12 +13,20 @@ function Projects() {
       </div> */}
       <div className="proj-container">
         <div className="blocks box">
-          <h4 className="proj-name">BPO Launch</h4>
-          <p className="proj-des">Description</p>
+          <div className="proj-copy-content">
+            <h4 className="proj-name">BPO Launch</h4>
+            <p className="proj-des">
+              Description for the world to see because it's imp to test for the
+              Description for the world to see because it's imp to test for the
+            </p>
+          </div>
         </div>
         <div className="blocks box">
           <h4 className="proj-name">LMS</h4>
-          <p className="proj-des">Description</p>
+          <p className="proj-des">
+            {' '}
+            Description for the world to see because it's imp to test
+          </p>
         </div>
         <div className="blocks box">
           <h4 className="proj-name">Landing Page</h4>
