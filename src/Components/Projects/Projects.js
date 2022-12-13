@@ -1,9 +1,13 @@
 import './Projects.css';
+import React, { useState } from 'react';
 // import Sql from '../Projects/div2@4x.png';
 // import Graph from '../Projects/chart2@4x.png';
 // import Logo from '../Projects/Divtest@4x.png';
+import data from '../Projects/Dataproj';
 
 function Projects() {
+  // insert use state
+  const [projsItems, setProjsItems] = useState(data);
   return (
     <div className="proj-section">
       <h2 className="proj-title">0 &#8594; 1</h2>
@@ -12,16 +16,30 @@ function Projects() {
         <h3 className="proj-category">Product</h3>
       </div> */}
       <div className="proj-container">
-        <div className="blocks box">
-          <div className="proj-copy-content">
-            <h4 className="proj-name">BPO Launch</h4>
+        {/* <div className="blocks box"> */}
+        {/* <div className="proj-copy-content"> */}
+        {/* <h4>project name</h4>
+            <p>project Description</p> */}
+        {data.map((projsInfo) => {
+          const { id, image, name, description } = projsInfo;
+          return (
+            <article className="blocks box" key={id}>
+              <img src={image} />
+              <div className="proj-copy-content">
+                <p className="proj-name">{name}</p>
+                <p className="proj-des">{description}</p>
+              </div>
+            </article>
+          );
+        })}
+        {/* <h4 className="proj-name">BPO Launch</h4>
             <p className="proj-des">
               Description for the world to see because it's imp to test for the
               Description for the world to see because it's imp to test for the
-            </p>
-          </div>
-        </div>
-        <div className="blocks box">
+            </p> */}
+        {/* </div> */}
+        {/* </div> */}
+        {/* <div className="blocks box">
           <h4 className="proj-name">LMS</h4>
           <p className="proj-des">
             {' '}
@@ -35,7 +53,7 @@ function Projects() {
         <div className="blocks box">
           <h4 className="proj-name">Funware</h4>
           <p className="proj-des">Description</p>
-        </div>
+        </div> */}
       </div>
       {/* <div className="sections">
         <div className="sql">
