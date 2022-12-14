@@ -1,25 +1,32 @@
 const projs = [
   {
     id: 1,
-    image: 'public/logo192.png',
-    name: 'BPO',
+    image: './images/funware.png',
+    name: 'Funware',
     description:
-      'Gabbie is one of the hardest working individuals that I have ever had the pleasure of working with. She is able to take a project from start to finish by scoping out all potential roadblocks and create a projected plan for resolution. ',
+      'Funware is a webapp aimed to help leaders of virtual teams increase collaboration and engagement by leveraging fun.',
   },
   {
     id: 2,
-    image: './Projects/test.jpeg',
-    name: 'Funware',
+    image: './images/Epson.png',
+    name: 'Landing Page Redesign',
     description:
-      'I have had the opportunity working with Gabbie in several capacities. When we were on the Marketplace team together, ',
+      'Find out how I balanced business needs and technological limitations to achieve a fresh new look for a B2B product landing page',
   },
 
   {
     id: 3,
-    img: './Projects/divtest@4x.png',
-    name: 'Proj3',
+    image: './images/Divtest@4x.png',
+    name: 'International Support Team',
+    description: 'Proj description goes here',
+  },
+
+  {
+    id: 4,
+    image: './images/Divtest@4x.png',
+    name: 'Image Review Tools',
     description:
-      'I supervised Gabbie on multiple projects while at Uber, and cannot say enough great things about her. She was able to learn fast, be efficient, and produce top numbers with little hand holding. ',
+      'Proj description goes here Proj description goes here Proj description goes here',
   },
 ];
 

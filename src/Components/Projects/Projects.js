@@ -24,9 +24,9 @@ function Projects() {
           const { id, image, name, description } = projsInfo;
           return (
             <article className="blocks box" key={id}>
-              <img src={image} />
+              <img className="photo" src={image} alt="title" />
               <div className="proj-copy-content">
-                <p className="proj-name">{name}</p>
+                <h3 className="proj-name">{name}</h3>
                 <p className="proj-des">{description}</p>
               </div>
             </article>
