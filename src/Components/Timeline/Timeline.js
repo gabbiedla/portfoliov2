@@ -40,15 +40,27 @@ function Timeline() {
               Strategically Identified Vehicle Deployment Locations for Market
               Launches and Expansions
             </h3>
-            <p className="description">testing</p>
+            <p className="description">
+              Determined vehicle deployment locations using internal and
+              external data for new market launches (i.e., San Francisco,
+              Austin, San Diego) helping the company surpass 1 million rides
+              nationwide by April 2018 and 10 million rides by Sept 2018.
+            </p>
           </div>
         </div>
         <div className="sub-container sub-right">
           <div className="sub-content">
             <h3 className="sub-title">
-              Managed Product Requests for the Marketplace Team
+              Influenced the Functionality of Marketplace Tools
             </h3>
-            <p className="description">testing</p>
+            <p className="description">
+              Documented deployment location identification and creation
+              processes along with feature product requests. This knowledge and
+              product improvements were later used to improve our teams
+              efficiency and eventually automating 50% of the process with a new
+              tool called the drop engine. This engine was created to improve
+              market profitability and # of rides.
+            </p>
           </div>
         </div>
         <div className="container left">
@@ -64,7 +76,12 @@ function Timeline() {
             <h3 className="sub-title">
               Responsible for Outsourcing and Managing Global Support
             </h3>
-            <p className="description">testing</p>
+            <p className="description">
+              Helped reduce headcount costs by outsourcing customer support.
+              Researched and implemented learning management tools to improve
+              ticket resolution time, training, store documentation, and track
+              knowledge retention.
+            </p>
           </div>
         </div>
         <div className="sub-container sub-right">
@@ -72,7 +89,16 @@ function Timeline() {
             <h3 className="sub-title">
               Responsible for Managing Image Review Internal Tooling
             </h3>
-            <p className="description">testing</p>
+            <p className="description">
+              Managed legal required global GovTech image processing tools used
+              for QA, identity verification, and vehicle deployment in order to
+              remain operational in all markets.
+              <p>
+                Succesfully improved verification identification process by
+                advocating for product improvements, which helped reduce 25k
+                image backlog in two weeks. As a result we gained 25k new rides.
+              </p>
+            </p>
           </div>
         </div>
         <div className="container left">

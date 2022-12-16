@@ -59,6 +59,7 @@
   }
 
   .text {
+    line-height: 1.5em;
     font-size: 1.2rem;
     font-weight: 300;
     /* margin-bottom: 1vh; */
@@ -66,7 +67,16 @@
     /* margin-bottom: 2vh; */
   }
 
-  .second-line {
+  /* .second-line {
     margin-bottom: 5vh;
-  }
+  } */
+
+  /* .hero-img {
+    position: absolute;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    right: 0;
+    width: 50vw;
+  } */
 }

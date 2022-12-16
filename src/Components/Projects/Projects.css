@@ -60,8 +60,11 @@
   border-radius: 2%;
   background: linear-gradient(180deg, #33b3ff 50%, #dfdfdf 50%);
   min-height: 380px;
-  max-width: 40%;
-  min-width: 330px;
+  width: clamp(320px, 40%, 380px);
+  /* width: clamp(20rem, 30%, 70rem); */
+  /* width: clamp(10vw, 20em, 100vw); */
+  /* max-width: 40%;
+  min-width: 330px; */
   /* width: 320px; */
   /* margin-bottom: 0.3vh; */
   /* margin-top: 1vh; */
