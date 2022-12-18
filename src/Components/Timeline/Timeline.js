@@ -19,7 +19,7 @@ function Timeline() {
             <p className="description">Contributed Digital Media expertise</p>
           </div>
         </div>
-        <div className="container left">
+        <div className="container left dates">
           <div className="content">
             <p className="date">Current</p>
           </div>
@@ -63,7 +63,7 @@ function Timeline() {
             </p>
           </div>
         </div>
-        <div className="container left">
+        <div className="container left dates">
           <div className="content">
             <p>
               Promoted to <strong>Global Vendor Associate</strong>
@@ -93,15 +93,15 @@ function Timeline() {
               Managed legal required global GovTech image processing tools used
               for QA, identity verification, and vehicle deployment in order to
               remain operational in all markets.
-              <p>
-                Succesfully improved verification identification process by
-                advocating for product improvements, which helped reduce 25k
-                image backlog in two weeks. As a result we gained 25k new rides.
-              </p>
+            </p>
+            <p>
+              Succesfully improved verification identification process by
+              advocating for product improvements, which helped reduce 25k image
+              backlog in two weeks. As a result we gained 25k new rides.
             </p>
           </div>
         </div>
-        <div className="container left">
+        <div className="container left dates">
           <div className="content">
             <p className="date">Apr 2020</p>
           </div>
@@ -120,10 +120,15 @@ function Timeline() {
             <h3 className="sub-title">
               Produced Top Numbers for Pilot Projects
             </h3>
-            <p className="description">testing</p>
+            <p className="description">
+              Doubled the AVG number of user signups for Getaround Uber
+              Partnership and UberEats Virtual Restaurants. As a result, the
+              UberEats team was given the green-light to begin expansion
+              efforts.
+            </p>
           </div>
         </div>
-        <div className="container left">
+        <div className="container left dates">
           <div className="content">
             <p className="date">Mar 2018</p>
           </div>
