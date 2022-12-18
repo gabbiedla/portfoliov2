@@ -24,6 +24,7 @@ function Timeline() {
             <p className="date">Current</p>
           </div>
         </div>
+
         <div className="container left">
           <div className="content">
             <p>
