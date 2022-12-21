@@ -26,7 +26,7 @@ function Slider() {
   return (
     <div className="section-slider">
       <div className="section-center">
-        <h2 className="slider-title">References</h2>
+        <h1 className="slider-title">References</h1>
         {references.map((reference, referenceIndex) => {
           const { id, quote, name } = reference;
           let position = 'nextSlide';

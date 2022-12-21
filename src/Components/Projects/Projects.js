@@ -10,7 +10,7 @@ function Projects() {
   const [projsItems, setProjsItems] = useState(data);
   return (
     <div className="proj-section">
-      <h2 className="proj-title">0 &#8594; 1</h2>
+      <h1 className="proj-title">Projects: 0 &#8594; 1</h1>
       {/* <div className="category-container">
         <h3 className="proj-category">Ops</h3>
         <h3 className="proj-category">Product</h3>
