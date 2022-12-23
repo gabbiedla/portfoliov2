@@ -39,7 +39,9 @@
 
   .slider-title {
     padding-top: 10px;
-    color: #1c79af;
+    /* color: #1c79af; */
+    font-weight: 900;
+    font-size: 2rem;
   }
 
   /* .arrow {
@@ -172,6 +174,8 @@
   }
 
   .slider-title {
+    font-weight: 900;
+    font-size: 2rem;
     /* padding-top: 1px; */
     padding-bottom: 20px;
   }

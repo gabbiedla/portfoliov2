@@ -13,7 +13,9 @@
   content: '';
   position: absolute;
   width: 6px;
-  background-color: rgb(225, 225, 225);
+  /* background-color: rgb(225, 225, 225); */
+  background-color: rgb(235, 235, 235);
+
   top: 0px;
   bottom: -21px;
   left: 50%;
@@ -30,7 +32,28 @@
 
 /* Container around content */
 .sub-container {
-  padding: 10px 40px;
+  padding: 25px 40px;
+  position: relative;
+  /* background-color: blue; */
+  width: 50%;
+}
+
+.sub-containerS {
+  padding: 25px 40px;
+  position: relative;
+  /* background-color: blue; */
+  width: 50%;
+}
+
+.sub-containerS2 {
+  padding: 35px 40px;
+  position: relative;
+  /* background-color: blue; */
+  width: 50%;
+}
+
+.sub-containerT {
+  padding: 25px 40px;
   position: relative;
   /* background-color: blue; */
   width: 50%;
@@ -45,6 +68,8 @@
   right: -17px;
   background-color: black;
   border: 2px solid black;
+  /* background-color: fuchsia;
+  border: 2px solid fuchsia; */
   top: 50px; /*moves left circle */
   border-radius: 50%;
   z-index: 1;
@@ -59,11 +84,49 @@
   right: -17px;
   background-color: #33b3ff;
   border: 4px solid #33b3ff;
-  top: -30px; /*moved circle */
+  top: -10px; /*moved circle */
   border-radius: 50%;
   z-index: 1;
 }
 
+.sub-containerS::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  right: -17px;
+  background-color: #7033ff;
+  border: 4px solid #7033ff;
+  top: -10px; /*moved circle */
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.sub-containerS2::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  right: -17px;
+  background-color: #7033ff;
+  border: 4px solid #7033ff;
+  top: -73px; /*moved circle */
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.sub-containerT::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  right: -17px;
+  background-color: #0264c5;
+  border: 4px solid #0264c5;
+  top: -10px; /*moved circle */
+  border-radius: 50%;
+  z-index: 1;
+}
 /* Place the container to the left */
 .left {
   left: -0.7%;
@@ -79,6 +142,20 @@
   margin-bottom: -10px;
 }
 
+.sub-rightS {
+  left: 50%; /*moved sub circle */
+  margin-bottom: -10px;
+}
+
+.sub-rightS2 {
+  left: 50%; /*moved sub circle */
+  margin-bottom: -10px;
+}
+
+.sub-rightT {
+  left: 50%; /*moved sub circle */
+  margin-bottom: -10px;
+}
 /* Add arrows to the left container (pointing right) */
 /* .left::before {
   content: ' ';
@@ -98,6 +175,8 @@
 .left::before {
   content: ' ';
   border: 1px solid black;
+  /* border: 1px solid fuchsia; */
+
   position: absolute;
   top: 60px;
   right: 2px;
@@ -135,11 +214,38 @@
   content: ' ';
   border: 1px solid #33b3ff;
   position: absolute;
-  top: -13px;
+  top: 5px;
   left: 15px;
   border-width: 1px 20px;
 }
 
+.sub-rightS::before {
+  content: ' ';
+  border: 1px solid rgb(77, 0, 128);
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  border-width: 1px 20px;
+}
+
+.sub-rightS2::before {
+  content: ' ';
+  border: 1px solid rgb(77, 0, 128);
+  position: absolute;
+  top: -57px;
+  left: 15px;
+  border-width: 1px 20px;
+}
+
+.sub-rightT::before {
+  content: ' ';
+  border: 1px solid #0264c5;
+
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  border-width: 1px 20px;
+}
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
@@ -149,6 +255,17 @@
   left: -16px;
 }
 
+.sub-rightS::after {
+  left: -16px;
+}
+
+.sub-rightS2::after {
+  left: -16px;
+}
+
+.sub-rightT::after {
+  left: -16px;
+}
 /* The actual content */
 .content {
   padding: 20px 40px;
@@ -158,16 +275,69 @@
   top: 5px;
   margin-left: 30%;
   text-align: right;
+  /* color: rgb(223, 0, 223); */
 }
+
+/* .First {
+  color: blue;
+}
+
+.Second {
+  color: rgb(107, 2, 255);
+}
+
+.Third {
+  color: rgb(0, 109, 123);
+} */
 
 .sub-content {
   padding: 20px 40px;
-  background-color: rgb(241, 245, 255);
+  /* background-color: rgb(241, 245, 255); */
   /* border: 2px solid #33b3ff; */
+  background-color: white;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+  border-top: 2px black solid;
+  border-left: 2px black solid;
+
   position: relative;
   top: -73px; /*moved content */
   border-radius: 10px;
   text-align: left;
+  margin-bottom: 1px;
+}
+
+.sub-contentS {
+  padding: 20px 40px;
+  /* background-color: rgb(241, 245, 255); */
+  /* border: 2px solid #33b3ff; */
+  background-color: white;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+  border-top: 2px black solid;
+  border-left: 2px black solid;
+
+  position: relative;
+  top: -73px; /*moved content */
+  border-radius: 10px;
+  text-align: left;
+}
+
+.sub-contentS2 {
+  padding: 20px 40px;
+  /* background-color: rgb(241, 245, 255); */
+  /* border: 2px solid #33b3ff; */
+  background-color: white;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+  /* border-top: 2px black solid; */
+  border-left: 2px black solid;
+
+  position: relative;
+  top: -143px; /*moved content */
+  border-radius: 0px 0px 10px 10px;
+  text-align: left;
+  margin-bottom: -80px;
 }
 
 .date {
@@ -176,6 +346,14 @@
 }
 .sub-title {
   color: #33b3ff;
+}
+
+.sub-titleS {
+  color: #7033ff;
+}
+
+.sub-titleT {
+  color: #0264c5;
 }
 
 .dates {
@@ -200,6 +378,8 @@
   .container {
     /* background-color: blue; */
     width: 100%;
+    /* padding-bottom: -5px; */
+    /* bottom: 8; */
   }
   /* 
   .container.left {
@@ -208,17 +388,48 @@
 
   /* Container around content */
   .sub-container {
+    /* padding: 30px 40px; */
+    margin-top: 30px;
     /* background-color: blue; */
     width: 100%;
   }
 
+  .sub-containerS {
+    margin-top: 30px;
+
+    /* background-color: blue; */
+    width: 100%;
+  }
+
+  .sub-containerS2 {
+    /* background-color: blue; */
+    width: 100%;
+  }
+
+  .sub-containerT {
+    margin-top: 30px;
+    /* background-color: blue; */
+    width: 100%;
+  }
   /* Place the left container to the left */
   .left {
     left: 0%;
   }
   /* moved right container to left */
   .sub-right {
-    left: -1%;
+    left: 0%;
+  }
+
+  .sub-rightS {
+    left: 0%;
+  }
+
+  .sub-rightS2 {
+    left: 0%;
+  }
+
+  .sub-rightT {
+    left: 0%;
   }
   /* LINES */
   /* black lines */
@@ -248,6 +459,32 @@
     border-width: 1px 20px;
   }
 
+  .sub-rightS::before {
+    content: ' ';
+    border: 1px solid #33b3ff;
+    position: absolute;
+    top: -13px;
+    left: 50px;
+    border-width: 1px 20px;
+  }
+
+  .sub-rightS2::before {
+    content: ' ';
+    border: 1px solid #33b3ff;
+    position: absolute;
+    top: -13px;
+    left: 50px;
+    border-width: 1px 20px;
+  }
+  .sub-rightT::before {
+    content: ' ';
+    border: 1px solid #33b3ff;
+    position: absolute;
+    top: -13px;
+    left: 50px;
+    border-width: 1px 20px;
+  }
+
   /* Fix the circle for containers on the right side */
 
   .left::after {
@@ -258,10 +495,21 @@
     left: 25px;
   }
 
+  .sub-rightS::after {
+    left: 25px;
+  }
+
+  .sub-rightS2::after {
+    left: 25px;
+  }
+
+  .sub-rightT::after {
+    left: 25px;
+  }
   /* The actual content */
   .content {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
     padding-left: 70px;
     padding-right: 10px;
     /* padding-left: -50px; */
@@ -271,13 +519,14 @@
     /* background-color: rgba(222, 222, 222); */
     position: relative;
     border-radius: 10px;
-    top: 5px;
+    /* top: 5px; */
+    /* margin-bottom: -50px; */
     /* margin-left: 2em; */
     /* padding-left: 5em; */
     text-align: left;
   }
 
-  .sub-content {
+  .sub-contentS {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 60px;
@@ -287,7 +536,23 @@
     top: -73px; /*moved content */
     border-radius: 10px;
     text-align: left;
-    margin-left: 1.7%;
+    /* margin-left: 1.7%; */
+  }
+
+  .sub-contentS2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 30px;
+    /* background-color: rgba(222, 222, 222); */
+    position: relative;
+    top: -135px; /*moved content */
+    margin-bottom: -50px; /*******THIS FOR UNDERNEAR SPACE */
+    border-radius: 10px;
+    text-align: left;
+    border-radius: 0px 0px 10px 10px;
+
+    /* margin-left: 1.7%; */
   }
 
   .date {

@@ -2,7 +2,7 @@ import './Hero.css';
 import linkedin from '../Hero/linkedin-circle.png';
 import medium from '../Hero/medium-circle.png';
 import headshot from '../Hero/headshot.jpeg';
-import bgv from '../Hero/Background3.mp4';
+import bgv from '../Hero/bgvid.mp4';
 // import ReactPlayer from 'react-player';
 
 function Hero() {

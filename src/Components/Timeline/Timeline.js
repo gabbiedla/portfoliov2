@@ -7,7 +7,7 @@ function Timeline() {
       <div className="timelineContainer">
         <div className="container left">
           <div className="content">
-            <p className="Joined">
+            <p className="Joined First">
               Joined <strong>Epson</strong> as <strong>Product Manager</strong>
             </p>
             <p className="date">Jan 2021</p>
@@ -27,7 +27,7 @@ function Timeline() {
 
         <div className="container left">
           <div className="content">
-            <p>
+            <p className="Second">
               Joined <strong>Bird</strong> as{' '}
               <strong>Operations Specialist</strong> on{' '}
               <strong>Marketplace</strong> team
@@ -35,9 +35,9 @@ function Timeline() {
             <p className="date">Mar 2018</p>
           </div>
         </div>
-        <div className="sub-container sub-right">
-          <div className="sub-content">
-            <h3 className="sub-title">
+        <div className="sub-containerS sub-rightS">
+          <div className="sub-contentS">
+            <h3 className="sub-titleS">
               Strategically Identified Vehicle Deployment Locations for Market
               Launches and Expansions
             </h3>
@@ -49,9 +49,9 @@ function Timeline() {
             </p>
           </div>
         </div>
-        <div className="sub-container sub-right">
-          <div className="sub-content">
-            <h3 className="sub-title">
+        <div className="sub-containerS2 sub-rightS2">
+          <div className="sub-contentS2">
+            <h3 className="sub-titleS">
               Influenced the Functionality of Marketplace Tools
             </h3>
             <p className="description">
@@ -66,15 +66,15 @@ function Timeline() {
         </div>
         <div className="container left dates">
           <div className="content">
-            <p>
+            <p className="Second">
               Promoted to <strong>Global Vendor Associate</strong>
             </p>
             <p className="date">Oct 2018</p>
           </div>
         </div>
-        <div className="sub-container sub-right">
-          <div className="sub-content">
-            <h3 className="sub-title">
+        <div className="sub-containerS sub-rightS">
+          <div className="sub-contentS">
+            <h3 className="sub-titleS">
               Responsible for Outsourcing and Managing Global Support
             </h3>
             <p className="description">
@@ -85,9 +85,9 @@ function Timeline() {
             </p>
           </div>
         </div>
-        <div className="sub-container sub-right">
-          <div className="sub-content">
-            <h3 className="sub-title">
+        <div className="sub-containerS2 sub-rightS2">
+          <div className="sub-contentS2">
+            <h3 className="sub-titleS">
               Responsible for Managing Image Review Internal Tooling
             </h3>
             <p className="description">
@@ -109,16 +109,16 @@ function Timeline() {
         </div>
         <div className="container left">
           <div className="content">
-            <p>
+            <p className="Third">
               Joined <strong>Uber</strong> as{' '}
               <strong>Account Specialist</strong>
             </p>
             <p className="date">Apr 2017</p>
           </div>
         </div>
-        <div className="sub-container sub-right">
+        <div className="sub-containerT sub-rightT">
           <div className="sub-content">
-            <h3 className="sub-title">
+            <h3 className="sub-titleT">
               Produced Top Numbers for Pilot Projects
             </h3>
             <p className="description">
