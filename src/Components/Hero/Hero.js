@@ -2,10 +2,15 @@ import './Hero.css';
 import linkedin from '../Hero/linkedin-circle.png';
 import medium from '../Hero/medium-circle.png';
 import headshot from '../Hero/headshot.jpeg';
+import bgv from '../Hero/Background3.mp4';
+// import ReactPlayer from 'react-player';
 
 function Hero() {
   return (
     <div className="hero-section">
+      <video autoPlay loop muted>
+        <source src={bgv} type="video/mp4" />
+      </video>
       <div className="fade">
         <div className="app-header">
           <img src={headshot} className="headshot" alt="headshot" />
@@ -23,8 +28,14 @@ function Hero() {
           </p>
           <p className="t2">Former Bird, Uber, Plantronics (Poly)</p>
           <div className="social">
-            <img src={linkedin} width="33" height="33" />
-            <img src={medium} classname="m-logo" width="25" height="27" />
+            <img src={linkedin} alt="social icon" width="33" height="33" />
+            <img
+              src={medium}
+              classname="m-logo"
+              alt="social icon"
+              width="25"
+              height="27"
+            />
           </div>
         </div>
       </div>
