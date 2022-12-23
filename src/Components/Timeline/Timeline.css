@@ -5,6 +5,7 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  /* background-color: rgb(241, 245, 255); */
 }
 
 /* The actual timeline (the vertical ruler) */
