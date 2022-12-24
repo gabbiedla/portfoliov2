@@ -12,7 +12,7 @@
   /* background-color: rgb(225, 225, 225); */
   /* background-color: rgb(235, 235, 235); */
   /* background-color: black; */
-  background: linear-gradient(90deg, #ffffffa5 35%, rgb(232, 232, 232) 0%);
+  background: linear-gradient(90deg, #ffffffa5 28%, rgb(232, 232, 232) 0%);
   /* background: linear-gradient(70deg, #5a5dff 0%, #0e0048 80%); */
 }
 
@@ -42,7 +42,7 @@
   left: 0;
   position: absolute;
   /* align-items: left; */
-  width: 25%;
+  width: 28%;
   overflow: hidden;
   /* height: auto; */
   height: 100%;
@@ -85,46 +85,65 @@
 
 .proj-container {
   display: flex;
+  /* flex-direction: column; */
+  /* column-count: 2; */
   flex-wrap: wrap;
+  /* right: 0;
+  left: 0; */
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
-  gap: 2em 1em;
+  margin-left: 30%;
+  /* margin-left: 38em; */
+
+  /* padding-left: 38em; */
+  margin-right: 2%;
+  /* padding-right: 2.5em; */
+  /* min-width: 60%; */
+  gap: 1.5em 1em;
+  /* row-gap: 1px; */
+  /* padding-right: 2.5em; */
+  /* right: 0; */
   /* column-gap: 10px; */
   /* padding-bottom: 10vh; */
-  padding-left: 8em;
-  padding-right: 10em;
+  /* padding-left: 8em;
+  padding-right: 10em; */
   /* margin-left: 6em; */
   /* margin-right: 2em; */
   /* width: 100vw; */
 
-  /* width: 80vw; */
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
 
 .blocks {
+  /* border-left: 3px solid black; */
+  /* border-image: linear-gradient(#6000f0, #ff6f00) 30;
+  border-width: 4px;
+  border-style: dotted; */
   /* opacity: 0; */
   /* background-color: rgb(231, 231, 231); */
+
   /* border-image: linear-gradient(#ff0000, #ff6a00) 30; */
-  /* border-block-end: 1rem solid;
-  writing-mode: horizontal-tb; */
+  /* border-block-end: 1rem solid; */
+  /* writing-mode: horizontal-tb; */
   /* border-inline: 1rem solid;
   writing-mode: horizontal-tb;
   direction: rtl; */
   /* border-bottom: 1rem solid red; */
 
-  /* border-block-start-color: rgb(170, 50, 220, 0.6);
-  writing-mode: horizontal-tb; */
+  /* border-block-start-color: rgb(170, 50, 220, 0.6); */
+  /* writing-mode: horizontal-tb; */
   /* border-width: 10px;
   border-style: outset;
   border-color: blueviolet; */
   /* border-bottom-style: rgb(255, 0, 0); */
-  /* border-radius: 5%; */
+  /* border-radius: 10%; */
   /* background: linear-gradient(180deg, #33b3ff 50%, rgb(106, 0, 255) 50%); */
 
   /* background: linear-gradient(180deg, #33b3ff 50%, rgb(241, 245, 255) 50%); */
   background: linear-gradient(180deg, #33b3ff 50%, rgb(255, 255, 255) 50%);
-  min-height: 380px;
-  width: clamp(350px, 50%, 370px);
+  min-height: 360px;
+  width: clamp(310px, 50%, 330px);
   /* width: clamp(20rem, 30%, 70rem); */
   /* width: clamp(10vw, 20em, 100vw); */
   /* max-width: 40%;
@@ -133,11 +152,14 @@
   /* margin-bottom: 0.3vh; */
   /* margin-top: 1vh; */
   position: relative;
+  /* right: 0; */
   /* background-color: rgba(177, 177, 177, 0.25); */
   /* border: 8px solid rgb(170, 170, 170); */
   /* box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.438); */
   /* border-left: 2px solid black; */
   /* filter: drop-shadow(1px 5px 4px #7a7a7a); */
+  /* margin-top: 1em; */
+  /* margin-bottom: 2em; */
 }
 
 .proj-copy-content {
@@ -184,7 +206,7 @@
   /* object-fit: contain; */
   /* object-position: 50% 50%; */
   position: absolute;
-  border-radius: 2% 2% 0 0;
+  /* border-radius: 10% 10% 0 0; */
 
   width: 100%;
   height: 190px;
