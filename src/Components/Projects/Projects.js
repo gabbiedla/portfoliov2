@@ -4,18 +4,23 @@ import React, { useState } from 'react';
 // import Graph from '../Projects/chart2@4x.png';
 // import Logo from '../Projects/Divtest@4x.png';
 import data from '../Projects/Dataproj';
+import vid from '../Projects/bgvid.mp4';
 
 function Projects() {
   // insert use state
   const [projsItems, setProjsItems] = useState(data);
   return (
     <div className="proj-section">
-      <h1 className="proj-title">Projects: 0 &#8594; 1</h1>
+      {/* <h1 className="proj-title">Projects: 0 &#8594; 1</h1> */}
       {/* <div className="category-container">
         <h3 className="proj-category">Ops</h3>
         <h3 className="proj-category">Product</h3>
       </div> */}
       <div className="proj-container">
+        <h1 className="proj-title">Projects: 0 &#8594; 1</h1>
+        <video className="vid2" autoPlay loop muted>
+          <source src={vid} type="video/mp4" />
+        </video>
         {/* <div className="blocks box"> */}
         {/* <div className="proj-copy-content"> */}
         {/* <h4>project name</h4>
