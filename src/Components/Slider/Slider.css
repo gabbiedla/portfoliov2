@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1023px) {
   /* .section-slider {
     height: 100%;
   } */
@@ -15,7 +15,13 @@
     overflow: hidden;
     /* right: 0; */
     margin-left: 15vw;
-    min-height: 440px;
+    min-height: 460px;
+    padding-bottom: 3em;
+
+    /* padding-bottom: 10em; */
+
+    /* min-height: 45vh; */
+    /* background-color: palegreen; */
     /* bottom: 0;
     top: 0; */
     /* border-top: 5px solid rgb(111, 111, 244); */
@@ -31,14 +37,16 @@
     flex-direction: column;
     top: 0;
     bottom: 0;
+    padding-top: 0.5em;
+    /* padding-top: 2em; */
     transition: var(--transition);
-
+    /* background-color: rgba(255, 0, 0, 0.55); */
     /* padding-left: 5em;
     padding-right: 5em; */
   }
 
   .slider-title {
-    padding-top: 10px;
+    padding-top: 1em;
     /* color: #1c79af; */
     font-weight: 900;
     font-size: 2rem;
@@ -120,7 +128,7 @@
     /* line-height: 25px; */
     line-height: 1.5em;
     font-size: 1.2rem;
-    /* font-weight: 300; */
+    /* font-weight: 300;  */
     /* font-style: italic; */
   }
 
@@ -148,7 +156,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1022px) {
   .section-center {
     width: 100%;
     /* z-index: 1; */
@@ -159,6 +167,7 @@
     min-height: 400px;
     /* bottom: 0;
       top: 0; */
+    padding-bottom: 3em;
   }
 
   article {
@@ -169,6 +178,7 @@
     top: 0;
     bottom: 0;
     transition: var(--transition);
+
     margin-left: 3em;
     margin-right: 3em;
   }
@@ -176,6 +186,7 @@
   .slider-title {
     font-weight: 900;
     font-size: 2rem;
+    padding-top: 1em;
     /* padding-top: 1px; */
     padding-bottom: 20px;
   }
@@ -201,11 +212,15 @@
     /* margin-bottom: -1em; */
   }
   .bg-color-slider {
-    background-color: rgb(241, 245, 255);
-
+    /* background-color: rgb(241, 245, 255); */
+    background-color: white;
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
     /* height: 4px; */
-    margin-bottom: 1em;
-    border-radius: 5%;
+    margin-bottom: 1.5em;
+    border-radius: 10px;
   }
 
   .prev,
