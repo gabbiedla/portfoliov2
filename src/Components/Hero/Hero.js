@@ -3,6 +3,7 @@ import linkedin from '../Hero/linkedin-circle.png';
 import medium from '../Hero/medium-circle.png';
 import headshot from '../Hero/headshot.jpeg';
 import bgv from '../Hero/bgvid.mp4';
+import git from '../Hero/github.png';
 // import ReactPlayer from 'react-player';
 
 function Hero() {
@@ -36,6 +37,7 @@ function Hero() {
               width="25"
               height="27"
             />
+            <img src={git} alt="social icon" width="29" height="29" />
           </div>
         </div>
       </div>

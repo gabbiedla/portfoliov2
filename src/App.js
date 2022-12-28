@@ -5,11 +5,8 @@ import Nav from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import Timeline from './Components/Timeline/Timeline';
 import Blog from './Components/Blog/Blog';
-// import Recommendations from './Components/Recommendations/Recommendations';
-// import Carousel, { CarouselItem } from './Components/Carousel/Carousel';
 import Slider from './Components/Slider/Slider';
-// import linkedin from './PNG/linkedin.png';
-// import medium from './PNG/Medium.png';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -19,13 +16,8 @@ function App() {
       <Timeline />
       <Projects />
       <Slider />
-      {/* <Recommendations /> */}
-      <Blog />
-      {/* <Carousel>
-        <CarouselItem>Item1</CarouselItem>
-        <CarouselItem>Item2</CarouselItem>
-        <CarouselItem>Item3</CarouselItem>
-      </Carousel> */}
+      {/* <Blog />n */}
+      <Contact />
     </div>
   );
 }

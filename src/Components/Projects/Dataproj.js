@@ -1,7 +1,7 @@
 const projs = [
   {
     id: 1,
-    image: './images/fun@3x.png',
+    image: './Components/Projects/test.jpeg',
     name: 'Funware',
     description:
       'Funware is a webapp aimed to help leaders of virtual teams increase collaboration and engagement by leveraging fun.',
