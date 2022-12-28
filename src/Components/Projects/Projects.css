@@ -28,7 +28,7 @@
 }
 
 .proj-title {
-  background-color: rgb(235, 235, 235);
+  /* background-color: rgb(235, 235, 235); */
   display: flex;
   justify-content: center;
   /* align-items: left; */

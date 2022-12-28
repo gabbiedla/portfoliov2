@@ -24,7 +24,7 @@ function Slider() {
   }, [index]);
 
   return (
-    <div className="section-slider">
+    <div className="section-slider" id="References">
       <div className="section-center">
         <h1 className="slider-title">References</h1>
         {references.map((reference, referenceIndex) => {

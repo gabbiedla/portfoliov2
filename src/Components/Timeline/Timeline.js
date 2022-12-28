@@ -2,7 +2,7 @@ import './Timeline.css';
 
 function Timeline() {
   return (
-    <div>
+    <div id="Timeline">
       {/* <h2>Wins</h2> */}
       <div className="timelineContainer">
         <div className="container left">

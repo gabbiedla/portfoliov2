@@ -8,7 +8,7 @@ import git from '../Hero/github.png';
 
 function Hero() {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="hero">
       <video autoPlay loop muted>
         <source src={bgv} type="video/mp4" />
       </video>

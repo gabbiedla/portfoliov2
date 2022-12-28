@@ -16,7 +16,7 @@ function Projects() {
         <h3 className="proj-category">Ops</h3>
         <h3 className="proj-category">Product</h3>
       </div> */}
-      <div className="proj-container">
+      <div className="proj-container" id="Projects">
         <h1 className="proj-title">Projects: 0 &#8594; 1</h1>
         <video className="vid2" autoPlay loop muted>
           <source src={vid} type="video/mp4" />

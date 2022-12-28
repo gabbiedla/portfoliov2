@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import Hero from './Components/Hero/Hero';
+import Home from './Components/Hero/Hero';
 import Nav from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
-import Timeline from './Components/Timeline/Timeline';
+import Experience from './Components/Timeline/Timeline';
 import Blog from './Components/Blog/Blog';
 import Slider from './Components/Slider/Slider';
 import Contact from './Components/Contact/Contact';
@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Hero />
-      <Timeline />
+      <Home />
+      <Experience />
       <Projects />
       <Slider />
       {/* <Blog />n */}
