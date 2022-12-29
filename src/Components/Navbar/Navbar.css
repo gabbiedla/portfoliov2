@@ -1,8 +1,9 @@
 .navBar {
+  /* margin: 0; */
   /* display: flex; */
   /* flex-direction: row; */
-  /* align-items: center; */
-  /* justify-content: space-evenly; */
+  align-items: center;
+  justify-content: space-evenly;
   width: 100%;
   /* background-color: rgb(52, 227, 247); */
   background-color: black;
@@ -19,14 +20,19 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
+  padding: 0;
+  cursor: pointer;
+  /* width: 100%; */
   /* background-color: rgb(52, 227, 247); */
   /* color: black; */
   /* z-index: 1; */
   /* position: absolute; */
 }
 
-.nav-text {
+li:hover {
+  color: aqua;
+}
+/* .nav-text {
   font-size: medium;
   font-weight: 500;
-}
+} */
