@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <div className="navBar">
-      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+      <ul className="nav-ul">
         <li className="nav-item">
           <Link
             to="hero"

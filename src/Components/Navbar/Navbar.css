@@ -1,3 +1,4 @@
+/* @media screen and (min-width: 784px) { */
 .navBar {
   /* margin: 0; */
   /* display: flex; */
@@ -14,7 +15,7 @@
   font-weight: 800;
 }
 
-ul {
+.nav-ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -36,3 +37,16 @@ li:hover {
   font-size: medium;
   font-weight: 500;
 } */
+/* } */
+
+/* @media screen and (max-width: 783px) {
+  .navbar {
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 785px) {
+  .navBar {
+    display: none;
+  }
+}

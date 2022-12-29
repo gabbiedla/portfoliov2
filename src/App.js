@@ -7,11 +7,13 @@ import Experience from './Components/Timeline/Timeline';
 import Blog from './Components/Blog/Blog';
 import Slider from './Components/Slider/Slider';
 import Contact from './Components/Contact/Contact';
+import Mobilenav from './Components/Navbar/Mobilenav';
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <Mobilenav />
       <Home />
       <Experience />
       <Projects />

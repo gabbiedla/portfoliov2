@@ -29,15 +29,21 @@ function Hero() {
           </p>
           <p className="t2">Former Bird, Uber, Plantronics (Poly)</p>
           <div className="social">
-            <img src={linkedin} alt="social icon" width="33" height="33" />
-            <img
-              src={medium}
-              classname="m-logo"
-              alt="social icon"
-              width="25"
-              height="27"
-            />
-            <img src={git} alt="social icon" width="29" height="29" />
+            <a href="https://www.linkedin.com/in/gdladelosangeles/">
+              <img src={linkedin} alt="social icon" width="33" height="33" />
+            </a>
+            <a href="https://gabsdla.medium.com/">
+              <img
+                src={medium}
+                classname="m-logo"
+                alt="social icon"
+                width="25"
+                height="27"
+              />
+            </a>
+            <a href="https://github.com/gabbiedla">
+              <img src={git} alt="social icon" width="29" height="29" />
+            </a>
           </div>
         </div>
       </div>
