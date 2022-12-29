@@ -288,6 +288,25 @@
 /* @media screen and (max-width: 768px) { */
 /* New project display */
 
+.learn-btn {
+  /* border: 2px solid red; */
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(0, 183, 255);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.learn-btn:hover {
+  color: #ffffff;
+  background-color: #00d9ff;
+}
+
 @media screen and (max-width: 1022px) {
   .proj-section {
     border-right-width: 30px;
