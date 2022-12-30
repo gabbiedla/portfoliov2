@@ -4,6 +4,7 @@ import medium from '../Hero/medium-circle.png';
 import headshot from '../Hero/headshot.jpeg';
 import bgv from '../Hero/bgvid.mp4';
 import git from '../Hero/github.png';
+import { FaLinkedinIn, FaMediumM, FaGithubAlt } from 'react-icons/fa';
 // import ReactPlayer from 'react-player';
 
 function Hero() {
@@ -33,19 +34,22 @@ function Hero() {
               href="https://www.linkedin.com/in/gdladelosangeles/"
               target="_blank"
             >
-              <img src={linkedin} alt="social icon" width="33" height="33" />
+              <FaLinkedinIn className="icons" />
+              {/* <img src={linkedin} alt="social icon" width="33" height="33" /> */}
             </a>
             <a href="https://gabsdla.medium.com/" target="_blank">
-              <img
-                src={medium}
+              <FaMediumM className="icons" />
+              {/* <img
+                src={AiFillMediumCircle}
                 classname="m-logo"
                 alt="social icon"
                 width="25"
                 height="27"
-              />
+              /> */}
             </a>
             <a href="https://github.com/gabbiedla" target="_blank">
-              <img src={git} alt="social icon" width="29" height="29" />
+              <FaGithubAlt className="icons" />
+              {/* <img src={git} alt="social icon" width="29" height="29" /> */}
             </a>
           </div>
         </div>

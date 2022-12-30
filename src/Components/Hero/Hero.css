@@ -65,6 +65,16 @@ video {
   /* padding-bottom: 50px; */
 }
 
+.icons {
+  width: 25px;
+  height: 27px;
+  color: rgb(0, 0, 0);
+}
+
+.icons:hover {
+  color: fuchsia;
+}
+
 .social {
   padding-top: 1vh;
   /* margin-left: 4em; */

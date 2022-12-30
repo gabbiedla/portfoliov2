@@ -37,7 +37,8 @@
   .burger-bar {
     width: 4em;
     height: 0.5em;
-    background-color: rgb(119, 119, 119);
+    /* background-color: rgb(119, 119, 119); */
+    background-color: fuchsia;
     border-radius: 0.5em;
     z-index: 5;
   }
