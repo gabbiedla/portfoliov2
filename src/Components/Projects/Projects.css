@@ -65,15 +65,16 @@
 
 .proj-name {
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: 700;
+  margin-bottom: 3px;
 }
 
 .proj-des {
   padding-left: 1em;
   padding-right: 1em;
-  text-align: left;
-  margin-top: -4px;
+  padding-bottom: 8%;
+  text-align: center;
+
+  /* margin-top: -1px; */
 }
 
 .photo {
@@ -86,16 +87,23 @@
   top: 0;
 }
 
+.proj-tags {
+  font-style: italic;
+  left: 5%;
+  /* display: flex; */
+  position: absolute;
+  bottom: 0;
+  color: rgb(104, 104, 104);
+}
+
 .learn-btn {
-  border-radius: 10px;
-  width: 100px;
-  height: 30px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  color: rgb(0, 0, 0);
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+  color: black;
   text-decoration: none;
-  font-weight: 800;
+  text-decoration: underline 4px solid;
+  text-underline-offset: 7px;
 }
 
 .learn-btn:hover {

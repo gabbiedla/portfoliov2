@@ -26,15 +26,16 @@ function Projects() {
         {/* <h4>project name</h4>
             <p>project Description</p> */}
         {data.map((projsInfo) => {
-          const { id, image, name, description, url } = projsInfo;
+          const { id, image, name, description, tags, url } = projsInfo;
           return (
             <article className="blocks box" key={id}>
               <img className="photo" src={image} alt="title" />
               <div className="proj-copy-content">
                 <h2 className="proj-name">{name}</h2>
                 <p className="proj-des">{description}</p>
+                <p className="proj-tags">{tags}</p>
                 <a href={url} target="_blank" className="learn-btn">
-                  Learn more
+                  View
                 </a>
               </div>
             </article>
