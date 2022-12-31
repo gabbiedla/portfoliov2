@@ -1,19 +1,9 @@
 @media screen and (max-width: 784px) {
-  /* * {
-    margin: 0;
-    box-sizing: 0;
-  } */
   /*----------Navbar and burger menu ------------------- */
-  /* .mob-nav {
-    position: fixed;
-    z-index: 2;
-    margin: 0;
-  } */
 
   nav {
     width: 100%;
     height: 5em;
-    /* background-color: aqua; */
     display: flex;
     justify-content: right;
     padding: 1em;
@@ -37,8 +27,7 @@
   .burger-bar {
     width: 4em;
     height: 0.5em;
-    /* background-color: rgb(119, 119, 119); */
-    background-color: fuchsia;
+    background-color: rgb(123, 123, 123);
     border-radius: 0.5em;
     z-index: 5;
   }
@@ -46,8 +35,7 @@
   .menu {
     width: 50%;
     height: 100%;
-    background-color: rgb(39, 39, 39);
-    /* top: 0; */
+    background-color: rgb(34, 34, 34);
     right: 0;
     z-index: 3;
     position: absolute;
@@ -59,28 +47,23 @@
     color: rgb(255, 255, 255);
     align-items: center;
     flex-direction: column;
-    /* background-color: blue; */
     justify-content: space-around;
     bottom: 10%;
     position: absolute;
     top: 10%;
-    /* left: 0; */
-    /* right: 0%; */
     cursor: pointer;
   }
 
   .mob-list {
     list-style: none;
     justify-content: space-around;
-    font-weight: 900;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
   }
 
   .mob-item {
     padding-bottom: 5vh;
   }
-
-  /* menu items */
 
   /* --------- Sliding Menu ----------- */
 

@@ -1,10 +1,7 @@
 .contact-Container {
   width: 100%;
   height: 50vh;
-  /* background-color: rgb(34, 34, 34);
-   */
-  background-color: rgb(39, 39, 39);
-
+  background-color: rgb(34, 34, 34);
   color: white;
   position: relative;
 }
@@ -14,47 +11,37 @@
   width: 70%;
   position: absolute;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   right: 0;
   left: 15%;
-  /* background-color: blueviolet; */
 }
 
 .contact-Copy {
-  /* width: 40%; */
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  /* align-items: center; */
   justify-content: center;
-  /* margin-left: 200px; */
   margin-left: 5em;
 }
-
+/* ---------- form fields ---------- */
 .form-Section {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   position: absolute;
   bottom: 0;
   top: 0;
-  /* left: 0; */
   right: 0;
   width: 30em;
   margin-right: 5em;
-  /* margin-right: 400px; */
 }
 
 textarea {
   height: 10vh;
   border-radius: 10px;
   margin-top: 0.5em;
-
   margin-bottom: 1.5em;
 }
 
@@ -70,60 +57,30 @@ input {
   width: 5em;
   right: 0;
   cursor: pointer;
-  /* right: 0; */
-  /* align-items: right; */
 }
-
+/* ---------------- Media query for small screen ---------------- */
 @media screen and (max-width: 1400px) {
   .contact-Container {
-    width: 100%;
     height: 63vh;
-    /* background-color: rgb(34, 34, 34); */
     background-color: rgb(39, 39, 39);
-
-    color: white;
-    position: relative;
   }
   .contact-sub-container {
     height: 63vh;
-    width: 70%;
-    position: absolute;
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    right: 0;
-    left: 15%;
-    /* background-color: blueviolet; */
   }
 
   .contact-Copy {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
     right: 0;
-    /* background-color: red; */
     align-items: center;
     padding-bottom: 41vh;
-    /* justify-content: center; */
-
-    /* margin-left: 200px; */
     margin-left: 0em;
   }
-
+  /* ---------- Form fields ---------- */
   .form-Section {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
     top: none;
     bottom: none;
     left: 0;
-    right: 0;
-    /* background-color: rgba(0, 13, 255, 0.354); */
     align-items: center;
     padding-top: 18vh;
     /* border: 2px solid white; */

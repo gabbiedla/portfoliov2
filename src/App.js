@@ -4,7 +4,6 @@ import Home from './Components/Hero/Hero';
 import Nav from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import Experience from './Components/Timeline/Timeline';
-import Blog from './Components/Blog/Blog';
 import Slider from './Components/Slider/Slider';
 import Contact from './Components/Contact/Contact';
 import Mobilenav from './Components/Navbar/Mobilenav';
@@ -18,7 +17,6 @@ function App() {
       <Experience />
       <Projects />
       <Slider />
-      {/* <Blog />n */}
       <Contact />
     </div>
   );

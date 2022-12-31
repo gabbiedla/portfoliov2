@@ -17,18 +17,18 @@ function Hero() {
         <div className="app-header">
           <img src={headshot} className="headshot" alt="headshot" />
           <h1 className="hero-name">Gabbie De Los Angeles</h1>
-          <p className="text ">
+          <h3 className="text ">
             I am a product manager in the B2B space. As a former operations
             leader in micromobility, i have experience in market launches,
             managing image recognition product tools, and launching
             international support teams. I previously worked in hyper-growth
             startups and established corporate environments. I enjoy working on
             web development projects outside of work.
-          </p>
-          <p className="t2">
+          </h3>
+          <h3 className="t2">
             Founder of a Toastmasters for LatinX women in tech.
-          </p>
-          <p className="t2">Former Bird, Uber, Plantronics (Poly)</p>
+          </h3>
+          <h3 className="t2">Former Bird, Uber, Plantronics (Poly)</h3>
           <div className="social">
             <a
               href="https://www.linkedin.com/in/gdladelosangeles/"

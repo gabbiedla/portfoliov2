@@ -31,7 +31,7 @@ function Projects() {
             <article className="blocks box" key={id}>
               <img className="photo" src={image} alt="title" />
               <div className="proj-copy-content">
-                <h3 className="proj-name">{name}</h3>
+                <h2 className="proj-name">{name}</h2>
                 <p className="proj-des">{description}</p>
                 <a href={url} target="_blank" className="learn-btn">
                   Learn more

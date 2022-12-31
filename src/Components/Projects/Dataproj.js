@@ -11,7 +11,7 @@ const projs = [
   {
     id: 2,
     image: './images/support@3x.png',
-    name: 'International Support Team',
+    name: 'Global Support Team',
     description:
       'Launching and managing international support teams came with its unique challenges. Learn about what you need to outsource your support team.',
     url: 'https://gabsdla.medium.com/tips-for-outsourcing-support-roles-356d27a4e99',

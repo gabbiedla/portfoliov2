@@ -43,7 +43,7 @@ function Slider() {
           return (
             <article className={position} id="ref-items" key={id}>
               <div className="bg-color-slider">
-                <p className="ref-text">{quote}</p>
+                <h3 className="ref-text">{quote}</h3>
                 <p className="ref-name">{name}</p>
               </div>
             </article>
