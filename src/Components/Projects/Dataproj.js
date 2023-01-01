@@ -6,7 +6,7 @@ const projs = [
     description:
       'Funware is a webapp aimed to help leaders of virtual teams increase collaboration and engagement by leveraging fun.',
     tags: 'Product, UX/UI',
-    url: 'https://www.linkedin.com/posts/gdladelosangeles_productmanagement-productdesign-activity-6992060269648637952-t13A?utm_source=share&utm_medium=member_desktop',
+    url: 'https://www.linkedin.com/pulse/building-0-1-product-funware-gabbie-de-los-angeles/?trackingId=Giw9%2FHFiSD2%2BuYVhtq2Zwg%3D%3D',
   },
 
   {
@@ -27,6 +27,26 @@ const projs = [
       'Created a website via CMS (SquareSpace) for a client looking to publish travel blogs and promote consultation services.',
     tags: 'CMS, Web Design',
     url: 'https://www.inkdpassport.com/',
+  },
+
+  {
+    id: 4,
+    image: './images/ml@3x.png',
+    name: 'SQL: Yammer Growth Data',
+    description:
+      'Used Mode to create dashbaord of public data belonging to Yammer which includes user growth, device type, and activated accounts during 2013-2014.',
+    tags: 'SQL',
+    url: 'https://modeanalytics.com/gdla/reports/ede4d2b49f1d',
+  },
+
+  {
+    id: 5,
+    image: './images/ml@3x.png',
+    name: 'SQL: Border Entry Data',
+    description:
+      'Public border entry data since 1996. It includes data on border entries by state, entry methods used, overall border trend between 2018-2022',
+    tags: 'SQL',
+    url: 'https://modeanalytics.com/gdla/reports/94ac694e8514',
   },
 
   // {

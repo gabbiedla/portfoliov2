@@ -18,12 +18,14 @@ function Hero() {
           <img src={headshot} className="headshot" alt="headshot" />
           <h1 className="hero-name">Gabbie De Los Angeles</h1>
           <h3 className="text ">
-            I am a product manager in the B2B space. As a former operations
-            leader in micromobility, i have experience in market launches,
-            managing image recognition product tools, and launching
-            international support teams. I previously worked in hyper-growth
-            startups and established corporate environments. I enjoy working on
-            web development projects outside of work.
+            I am a <strong>product manager</strong> in the{' '}
+            <strong>B2B space</strong>. As a former operations leader in{' '}
+            <strong>micromobility</strong>, I have experience in{' '}
+            <strong>market launches</strong>,{' '}
+            <strong>managing image recognition product tools</strong>, and{' '}
+            <strong>launching international support teams</strong>. I enjoy
+            working on <strong>web development projects</strong> outside of
+            work.
           </h3>
           <h3 className="t2">
             Founder of a Toastmasters for LatinX women in tech.
