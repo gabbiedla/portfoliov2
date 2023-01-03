@@ -27,9 +27,9 @@ function Hero() {
             working on <strong>web development projects</strong> outside of
             work.
           </h3>
-          <h3 className="t2">
+          {/* <h3 className="t2">
             Founder of a Toastmasters for LatinX women in tech.
-          </h3>
+          </h3> */}
           <h3 className="t2">Former Bird, Uber, Plantronics (Poly)</h3>
           <div className="social">
             <a
