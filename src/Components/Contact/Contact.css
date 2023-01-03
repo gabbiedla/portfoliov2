@@ -61,19 +61,41 @@ input {
   width: 25em;
 }
 
-.submit-btn {
+#submit-btn {
   width: 5em;
   right: 0;
   cursor: pointer;
   font-weight: 600;
 }
 
-.submit-btn:hover {
+#submit-btn:hover {
   width: 5em;
   right: 0;
   cursor: pointer;
   background-color: rgb(0, 195, 255);
 }
+/* ------------- confirm message ---------------- */
+.confirm-m {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 20em;
+  border: 2px solid aqua;
+  padding: 40px;
+  text-align: center;
+}
+
+.visible {
+  display: initial;
+}
+
+.hidden {
+  display: none;
+}
+
 /* ---------------- Media query for small screen ---------------- */
 @media screen and (max-width: 1400px) {
   .contact-Copy {
@@ -100,5 +122,22 @@ input {
 
   textarea {
     width: 25em;
+  }
+  .confirm-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20em;
+    border: 2px solid aqua;
+    padding: 40px;
+    text-align: center;
+  }
+  .visible {
+    display: initial;
+  }
+
+  .hidden {
+    display: none;
   }
 }
