@@ -21,8 +21,12 @@
 
 li:hover {
   color: rgb(0, 195, 255);
-  text-decoration: underline 4px solid;
+  /* text-decoration: underline 4px solid;
+  text-underline-offset: 7px;  */
+  text-decoration-line: underline;
+  text-decoration-color: rgb(0, 195, 255);
   text-underline-offset: 7px;
+  text-decoration-thickness: 3px;
 }
 
 @media screen and (max-width: 785px) {

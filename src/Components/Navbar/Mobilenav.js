@@ -77,7 +77,7 @@ const Mobilenav = () => {
                 to="Projects"
                 spy={true}
                 smooth={true}
-                offset={-30}
+                offset={0}
                 duration={500}
                 onClick={closeMenu}
               >

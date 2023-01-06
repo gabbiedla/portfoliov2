@@ -106,16 +106,24 @@
   right: 5%;
   bottom: 8%;
   color: black;
-  text-decoration: none;
-  text-decoration: underline 4px solid;
+  /* text-decoration: none; */
+  /* text-decoration: underline 4px solid;
+  text-underline-offset: 7px; */
+
+  text-decoration-line: underline;
   text-underline-offset: 7px;
+  text-decoration-thickness: 3px;
 }
 
 .learn-btn:hover {
   color: rgb(0, 195, 255);
-  text-decoration: underline 4px solid;
-  text-underline-offset: 7px;
+  /* text-decoration: underline 4px solid;
+  text-underline-offset: 7px; */
   /* background-color: #00d9ff; */
+  text-decoration-line: underline;
+  text-decoration-color: rgb(0, 195, 255);
+  text-underline-offset: 7px;
+  text-decoration-thickness: 3px;
 }
 /* -------------- Media query for smalls screens ------------ */
 @media screen and (min-width: 556px) and (max-width: 1022px) {

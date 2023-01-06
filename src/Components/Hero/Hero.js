@@ -10,7 +10,7 @@ import { FaLinkedinIn, FaMediumM, FaGithubAlt } from 'react-icons/fa';
 function Hero() {
   return (
     <div className="hero-section" id="hero">
-      <video autoPlay loop muted>
+      <video autoPlay="autoplay" loop muted>
         <source src={bgv} type="video/mp4" />
       </video>
       <div className="fade">
