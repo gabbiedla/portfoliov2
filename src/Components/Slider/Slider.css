@@ -150,3 +150,15 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 660px) {
+  .ref-text {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .ref-name {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

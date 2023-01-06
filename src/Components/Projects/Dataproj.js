@@ -12,9 +12,9 @@ const projs = [
   {
     id: 2,
     image: './images/support@3x.png',
-    name: 'Global Support Team',
+    name: 'Global Support',
     description:
-      'Launching and managing international support teams came with its unique challenges. Learn about what you need to outsource your support team.',
+      'Launching and managing international support teams is no easy feat. What you need to know before you outsource your team.',
     tags: 'Ops',
     url: 'https://gabsdla.medium.com/tips-for-outsourcing-support-roles-356d27a4e99',
   },
@@ -32,9 +32,9 @@ const projs = [
   {
     id: 4,
     image: './images/ml@3x.png',
-    name: 'SQL: Yammer Growth Data',
+    name: 'SQL: User Growth',
     description:
-      'Used Mode to create dashbaord of public data belonging to Yammer which includes user growth, device type, and activated accounts during 2013-2014.',
+      'Growth dashboard using Yammer data which includes user growth, device type, and activated accounts during 2013-2014.',
     tags: 'SQL',
     url: 'https://modeanalytics.com/gdla/reports/ede4d2b49f1d',
   },
@@ -42,9 +42,9 @@ const projs = [
   {
     id: 5,
     image: './images/ml@3x.png',
-    name: 'SQL: Border Entry Data',
+    name: 'SQL: Border Entry',
     description:
-      'Public border entry data since 1996. It includes data on border entries by state, entry methods used, overall border trend between 2018-2022',
+      'Border entry data since 1996. Includes border entries by state, entry methods used, overall border trend between 2018-2022',
     tags: 'SQL',
     url: 'https://modeanalytics.com/gdla/reports/94ac694e8514',
   },
