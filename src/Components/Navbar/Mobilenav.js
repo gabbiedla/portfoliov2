@@ -8,14 +8,12 @@ const Mobilenav = () => {
 
   const [burger_class, setBurgerClass] = useState('burger-bar unclicked');
 
+  // control menu visiblity
   const [menu_class, setMenuClass] = useState('menu hidden');
 
-  const [isMenuClicked, setIsMenuClciked] = useState(false);
+  const [isMenuClicked, setIsMenuClicked] = useState(false);
 
-  // normal js
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
-  const closeMenu = () => setClick(false);
+  const [isMobileItemClicked, setIsMobileItemClicked] = useState(false);
 
   // toggle burger menu change
 
@@ -27,7 +25,16 @@ const Mobilenav = () => {
       setBurgerClass('burger-bar unclicked');
       setMenuClass('menu hidden');
     }
-    setIsMenuClciked(!isMenuClicked);
+    setIsMenuClicked(!isMenuClicked);
+  };
+
+  // close menu after clicking on nav item
+  const closeMenu = () => {
+    if (!isMobileItemClicked) {
+      setBurgerClass('burger-bar unclicked');
+      setMenuClass('menu hidden');
+    }
+    setIsMenuClicked(!isMenuClicked);
   };
   return (
     <div className="mob-nav" stlye={{ width: '100%', height: '100vh' }}>
@@ -39,7 +46,7 @@ const Mobilenav = () => {
         </div>
       </nav>
       <div className={menu_class}>
-        <div className="mobile-items">
+        <div className={'mobile-items'}>
           <ul className="mob-list">
             <li className="mob-item">
               <Link
