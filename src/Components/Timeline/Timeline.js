@@ -15,10 +15,34 @@ function Timeline() {
         </div>
         <div className="sub-container sub-right">
           <div className="sub-content">
-            <h3 className="sub-title">Led Landing Page Revamp</h3>
-            <p className="description">Contributed Digital Media expertise</p>
+            <h3 className="sub-title">Boosted Sales with Growth Initiatives</h3>
+            <p className="description">
+              Collaborated with Marketing to support the Sales team by
+              generating new leads through strategic partnerships, trade shows,
+              and redesigning our product landing page. As a result we saw an
+              increase in Sales Qualified Leads by 105% and an increase in
+              product sales by 66%.
+            </p>
           </div>
         </div>
+        <div className="sub-containerS1 sub-rightS1">
+          <div className="sub-contentS1">
+            <h3 className="sub-title">
+              Roadmapped Product Offering Improvement Initiatives
+            </h3>
+            <p className="description">
+              Spearheaded a Service Improvement Plan aimed at shifting processes
+              from a reactive to a proactive approach to reduce product downtime
+              and improve the overall customer experience.
+            </p>
+            <p>
+              Influenced key stakeholders to prioritize direct API integration
+              capabilities to help automate reporting and create an ink ordering
+              system to also improve the client experience.
+            </p>
+          </div>
+        </div>
+
         <div className="container left dates">
           <div className="content">
             <p className="date">Current</p>

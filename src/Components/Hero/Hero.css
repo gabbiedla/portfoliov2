@@ -125,5 +125,12 @@ video {
   .text {
     padding-left: 1.5em;
     padding-right: 1.5em;
+    margin-top: 0.5vh;
+  }
+
+  .t2 {
+    margin-top: 0.5vh;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }

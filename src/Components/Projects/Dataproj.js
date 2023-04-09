@@ -1,6 +1,15 @@
 const projs = [
   {
     id: 1,
+    image: './images/rds@3x.png',
+    name: 'Landing Page Redesign',
+    description:
+      'Led the redesign of a B2B product landing page in effort to improve the customer journey and increase the form completion rate.',
+    tags: 'Product, Web Design',
+    url: 'https://epson.com/surepress',
+  },
+  {
+    id: 2,
     image: './images/fun@3x.png',
     name: 'Funware',
     description:
@@ -10,7 +19,7 @@ const projs = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: './images/support@3x.png',
     name: 'Global Support',
     description:
@@ -20,7 +29,7 @@ const projs = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: './images/rds@3x.png',
     name: 'Web Design',
     description:
@@ -30,7 +39,7 @@ const projs = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: './images/ml@3x.png',
     name: 'SQL: User Growth',
     description:
@@ -40,7 +49,7 @@ const projs = [
   },
 
   {
-    id: 5,
+    id: 6,
     image: './images/ml@3x.png',
     name: 'SQL: Border Entry',
     description:
