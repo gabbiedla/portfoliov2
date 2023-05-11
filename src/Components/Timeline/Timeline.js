@@ -37,7 +37,7 @@ function Timeline() {
             </p>
             <p>
               Influenced key stakeholders to prioritize direct API integration
-              capabilities to help automate reporting and create an ink ordering
+              capabilities to automate reporting and create an ink ordering
               system to also improve the client experience.
             </p>
           </div>
