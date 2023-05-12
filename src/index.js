@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TagManager from 'react-gtm-module';
+import ReactGA from 'react-ga';
 
 const tagManagerArgs = {
   gtmId: 'GTM-N63P4XV',
 };
 
 TagManager.initialize(tagManagerArgs);
+
+const TRACKING_ID = 'G-M5LBQH3GBT';
+ReactGA.initialize(TRACKING_ID);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
