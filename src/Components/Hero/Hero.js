@@ -35,13 +35,12 @@ function Hero() {
             <a
               href="https://www.linkedin.com/in/gdladelosangeles/"
               target="_blank"
-              id="social-ln"
             >
-              <FaLinkedinIn className="icons" />
+              <FaLinkedinIn className="icons" id="social-ln" />
               {/* <img src={linkedin} alt="social icon" width="33" height="33" /> */}
             </a>
-            <a href="https://gabsdla.medium.com/" target="_blank" id="social-m">
-              <FaMediumM className="icons" />
+            <a href="https://gabsdla.medium.com/" target="_blank">
+              <FaMediumM className="icons" id="social-m" />
               {/* <img
                 src={AiFillMediumCircle}
                 classname="m-logo"
@@ -50,12 +49,8 @@ function Hero() {
                 height="27"
               /> */}
             </a>
-            <a
-              href="https://github.com/gabbiedla"
-              target="_blank"
-              id="social-git"
-            >
-              <FaGithubAlt className="icons" />
+            <a href="https://github.com/gabbiedla" target="_blank">
+              <FaGithubAlt className="icons" id="social-g" />
               {/* <img src={git} alt="social icon" width="29" height="29" /> */}
             </a>
           </div>
