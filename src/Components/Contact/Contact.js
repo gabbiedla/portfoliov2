@@ -49,7 +49,12 @@ const Contact = () => {
           <h2>I'd love to hear from you!</h2>
         </div>
         <div>
-          <form ref={form} onSubmit={sendEmail} className="form-Section">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="form-Section"
+            id="contact-submissions"
+          >
             <label className={fields}>Full Name</label>
             <input
               type="text"
