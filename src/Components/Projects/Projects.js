@@ -34,7 +34,12 @@ function Projects() {
                 <h2 className="proj-name">{name}</h2>
                 <p className="proj-des">{description}</p>
                 <p className="proj-tags">{tags}</p>
-                <a href={url} target="_blank" className="learn-btn">
+                <a
+                  href={url}
+                  target="_blank"
+                  className="learn-btn"
+                  id="proj-links"
+                >
                   View
                 </a>
               </div>

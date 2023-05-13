@@ -18,6 +18,7 @@ const Navbar = () => {
             offset={-100}
             duration={500}
             onClick={closeMenu}
+            id="nav-home"
           >
             Home
           </Link>
@@ -30,6 +31,7 @@ const Navbar = () => {
             offset={0}
             duration={500}
             onClick={closeMenu}
+            id="nav-timeline"
           >
             Experience
           </Link>
@@ -42,6 +44,7 @@ const Navbar = () => {
             offset={-30}
             duration={500}
             onClick={closeMenu}
+            id="nav-projects"
           >
             Projects
           </Link>
@@ -54,6 +57,7 @@ const Navbar = () => {
             offset={-20}
             duration={500}
             onClick={closeMenu}
+            id="nav-references"
           >
             References
           </Link>
@@ -66,6 +70,7 @@ const Navbar = () => {
             offset={0}
             duration={500}
             onClick={closeMenu}
+            id="nav-contact"
           >
             Contact
           </Link>

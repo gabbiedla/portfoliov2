@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TagManager from 'react-gtm-module';
 import ReactGA from 'react-ga'; //measurement ID...?
-import ReactGA from 'react-ga4';
 // https://medium.com/finnovate-io/integrating-google-tag-manager-with-a-react-app-5a8584ee2251
 // ReactGA.initialize('G-M5LBQH3GBT');
 
